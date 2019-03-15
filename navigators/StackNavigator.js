@@ -19,5 +19,7 @@ const AppStack = createStackNavigator(
     }
 )
 
+// 路由的切换只要保持在堆栈中  componentWillUnMount就不会调用
+
 
 export default createAppContainer(AppStack)
